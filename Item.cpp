@@ -6,15 +6,15 @@ using namespace std;
 Item::Item()
 {
   itemCode=0;
-  unitPrice=0;
-  
+  unitPrice=0.0;
+  discount =0.0;
 }
 // 5. Implement Overloaded Constructor Implementation
 Item::Item(int icode , float uPrice )
 {
   itemCode=icode;
   unitPrice=uPrice;
-
+  
 }
 // 6. Implement Destructor (display "Destructor Called")
 Item::~Item()
